@@ -1,0 +1,71 @@
+.footer {
+    background-color: #f8e9f0; /* Soft pink background */
+    color: #333333;
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer h3 {
+    color: #d14d8b; /* Brand pink */
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.footer .tagline {
+    font-style: italic;
+    margin-bottom: 30px;
+    color: #666;
+    max-width: 600px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.link-column {
+    width: 23%;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.link-column h4 {
+    color: #d14d8b;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.link-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.link-column ul li {
+    margin-bottom: 8px;
+}
+
+.link-column a {
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.link-column a:hover {
+    color: #d14d8b;
+}
+
+.footer-bottom {
+    border-top: 1px solid #e0c0d0;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+}
